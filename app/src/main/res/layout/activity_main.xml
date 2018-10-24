@@ -13,17 +13,14 @@
         android:hint="Num1"
         android:id="@+id/num1"
         android:inputType="number"
-        android:ems="5">
-    </EditText>
+        android:ems="5"/>
     <Spinner
         android:layout_width="50dp"
         android:layout_height="40dp"
         android:id="@+id/option"
         android:layout_marginLeft="5dp"
         android:background="@color/colorPrimary"
-        android:entries="@array/optn">
-
-    </Spinner>
+        android:entries="@array/optn"/>
 
     <EditText
         android:layout_width="70dp"
@@ -31,24 +28,26 @@
         android:id="@+id/num2"
         android:inputType="number"
         android:layout_marginLeft="5dp"
-        android:hint="Num2">
-    </EditText>
+        android:hint="Num2"/>
     <Button
         android:layout_width="30dp"
         android:layout_height="wrap_content"
         android:id="@+id/eql_btn"
         android:layout_marginLeft="4dp"
-        android:text="=">
-
-
-    </Button>
+        android:text="="/>
     <TextView
         android:layout_width="100dp"
         android:layout_height="30dp"
         android:layout_marginLeft="20dp"
         android:id="@+id/ans"
         android:textSize="20dp"
-        android:hint="Answer">
+        android:hint="Answer"/>
+<android.support.v7.widget.RecyclerView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/recycler"
+    android:scrollbars="vertical"/>
 
-    </TextView>
+
+
 </LinearLayout>
